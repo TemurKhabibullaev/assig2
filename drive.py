@@ -1,7 +1,6 @@
 #from sep_file
 from sep_file import *
 
-
 while True:
     instance = Engine()
     print("""
@@ -22,31 +21,31 @@ Choose option (DIGITS ONLY):
 13 Second largest number""")
     option = int(input(">>>"))
     if option == 1:
-        instance.sort()
+        print(instance.sort())
     if option == 2:
-        instance.sum()
+        print(instance.sum())
     if option == 3:
-        instance.product()
+        print(instance.product())
     if option == 4:
-        instance.mean()
+        print(instance.mean())
     if option == 5:
-        instance.median()
+        print(instance.median())
     if option == 6:
-        instance.mode()
+        print(instance.mode())
     if option == 7:
-        instance.dup()
+        print(instance.dup())
     if option == 8:
-        instance.lar()
+        print(instance.lar())
     if option == 9:
-        instance.sma()
+        print(instance.sma())
     if option == 10:
-        instance.eve()
+        print(instance.eve())
     if option == 11:
-        instance.odd()
+        print(instance.odd())
     if option == 12:
-        instance.exi()
+        print(instance.exi())
     if option == 13:
-        instance.sec_lar()
+        print(instance.sec_lar())
     if option == 0:
         print("Bye!")
         break
