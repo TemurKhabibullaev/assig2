@@ -47,7 +47,7 @@ class Engine:
             x += sorting[3]
         if sorting[4] == sorting[4]:
             pass
-        return x, ' is a mode of the list'
+        return x, 'is a mode of the list'
 
     def dup(self):
         sorting = sorted(self.list)
